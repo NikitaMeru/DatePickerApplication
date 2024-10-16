@@ -2,6 +2,7 @@ import React from 'react';
 import { format } from 'date-fns';
 
 export default function DateInput({ selectedDate, setSelectedDate, customRecurrence, setCustomRecurrence }) {
+  
   const handleDateChange = (event) => {
     setSelectedDate(new Date(event.target.value));
   };
